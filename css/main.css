@@ -1,16 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 .logo {
     margin: auto;
     display: block;
     width: 400px;
 }
-.cfm-title {
-    margin-top: -2em;
-    margin-bottom: 2em;
+
+.logo-pod {
+    width: 100px;
 }
+
+.cfm-title {
+    margin-top: -1em;
+    font-size: 40px;
+    font-family: 'Sriracha', cursive;
+}
+
+.pod-title {
+    font-family: 'Sriracha', cursive;
+    line-height: 60px;
+    margin-left: -0.9em;
+}
+
+
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
+}
+
+.cop {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+
+
+.wave-container {
+    background: #A2D9FF;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.butt {
+    margin-top: -5em;
+    margin-bottom: 20em;
+}
+
+.tomb {
+    height: 80px;
+    line-height: 60px;
+}
+
+@media screen and (max-width: 850px) {
+    .butt {
+        margin-top: 2em;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .butt {
+        margin-top: 4em;
+    }
 }
