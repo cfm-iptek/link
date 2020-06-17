@@ -10,7 +10,8 @@
 }
 
 .cfm-title {
-    margin-top: -1em;
+    margin-top: -2em;
+    margin-bottom: 0em;
     font-size: 40px;
     font-family: 'Sriracha', cursive;
 }
@@ -47,11 +48,15 @@ html {
     overflow: hidden;
 }
 
+.wave {
+    margin-bottom: -4em;
+}
+
 
 
 .butt {
     margin-top: -5em;
-    margin-bottom: 20em;
+    margin-bottom: 16em;
 }
 
 .tomb {
